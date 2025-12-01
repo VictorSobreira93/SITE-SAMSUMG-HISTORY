@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Linha do tempo interativa da Samsung com marcos históricos importantes.">
+    <title>Linha do Tempo Interativa | Samsung History</title>
+    <link rel="icon" type="image/x-icon" href="../images/icon samsung history.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="../index.html" class="logo">
+                    <h1>Samsung History</h1>
+                </a>
+                <nav class="nav">
+                    <button class="mobile-menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-list">
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="fundacao.html">Fundação</a></li>
+                        <li><a href="lancamento.html">Primeiro Lançamento</a></li>
+                        <li><a href="linha_do_tempo.html" class="active">Linha do Tempo</a></li>
+                        <li><a href="curiosidades.html">Curiosidades</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background: linear-gradient(135deg, var(--samsung-blue-2) 0%, var(--samsung-blue-3) 100%);">
+            <div class="container">
+                <h2>Linha do Tempo Interativa</h2>
+                <p class="subtitle">Navegue pelos marcos históricos mais importantes da Samsung</p>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <div class="container">
+                <div class="timeline-instructions">
+                    <p>Clique ou passe o mouse sobre cada ano para ver detalhes do marco histórico</p>
+                </div>
+
+                <div class="interactive-timeline" id="interactiveTimeline">
+                    
+                    <div class="timeline-line"></div>
+
+                    <!-- Timeline Items -->
+                    <div class="timeline-event" data-year="1938">
+                        <div class="timeline-year">1938</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Fundação da Samsung</h3>
+                            <p>Lee Byung-chul funda a Samsung Sanghoe em Daegu, iniciando como uma empresa de comércio e exportação de produtos agrícolas.</p>
+                            <span class="timeline-category">Fundação</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1947">
+                        <div class="timeline-year">1947</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Mudança para Seul</h3>
+                            <p>A Samsung move sua sede para Seul e expande operações para comércio geral, marcando o início da diversificação da empresa.</p>
+                            <span class="timeline-category">Expansão</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1954">
+                        <div class="timeline-year">1954</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Cheil Industries</h3>
+                            <p>Fundação da Cheil Industries, que se torna a maior empresa têxtil da Coreia, marcando a entrada da Samsung na manufatura.</p>
+                            <span class="timeline-category">Industrialização</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1969">
+                        <div class="timeline-year">1969</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Samsung Electronics</h3>
+                            <p>Fundação da Samsung Electronics em Suwon, marcando a entrada oficial da Samsung no setor de eletrônicos que a definiria.</p>
+                            <span class="timeline-category">Eletrônicos</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1970">
+                        <div class="timeline-year">1970</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Primeira Televisão</h3>
+                            <p>Lançamento da primeira televisão em preto e branco da Samsung, estabelecendo presença no mercado de eletrônicos de consumo.</p>
+                            <span class="timeline-category">Produtos</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1974">
+                        <div class="timeline-year">1974</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Entrada em Semicondutores</h3>
+                            <p>Samsung adquire 50% da Korea Semiconductor, iniciando sua jornada na indústria de chips que a tornaria líder global.</p>
+                            <span class="timeline-category">Tecnologia</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1983">
+                        <div class="timeline-year">1983</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Nova Liderança</h3>
+                            <p>Lee Kun-hee assume como presidente da Samsung após a morte de seu pai, iniciando uma era de transformação focada em qualidade.</p>
+                            <span class="timeline-category">Liderança</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1987">
+                        <div class="timeline-year">1987</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>"Mudar Tudo"</h3>
+                            <p>Lee Kun-hee faz seu famoso discurso "Mudar tudo, exceto sua esposa e filhos", revolucionando a cultura empresarial da Samsung.</p>
+                            <span class="timeline-category">Transformação</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1992">
+                        <div class="timeline-year">1992</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>64 MB DRAM</h3>
+                            <p>Samsung desenvolve o primeiro chip de memória DRAM de 64 megabits do mundo, estabelecendo liderança em semicondutores.</p>
+                            <span class="timeline-category">Inovação</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="1998">
+                        <div class="timeline-year">1998</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Superando a Crise</h3>
+                            <p>Durante a crise financeira asiática, Samsung reestrutura operações e emerge mais forte, focando em produtos premium.</p>
+                            <span class="timeline-category">Resiliência</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2002">
+                        <div class="timeline-year">2002</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Ultrapassando Sony</h3>
+                            <p>Samsung ultrapassa a Sony em valor de marca para eletrônicos de consumo, marcando sua ascensão como líder global.</p>
+                            <span class="timeline-category">Marco</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2010">
+                        <div class="timeline-year">2010</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Galaxy S Original</h3>
+                            <p>Lançamento do primeiro smartphone Galaxy S, iniciando uma linha que rivalizaria com o iPhone e dominaria o mercado Android.</p>
+                            <span class="timeline-category">Produto</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2012">
+                        <div class="timeline-year">2012</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Líder em Smartphones</h3>
+                            <p>Samsung torna-se a maior fabricante de smartphones do mundo, superando a Nokia e estabelecendo domínio no mercado móvel.</p>
+                            <span class="timeline-category">Liderança</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2017">
+                        <div class="timeline-year">2017</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Bixby e IA</h3>
+                            <p>Lançamento do assistente de IA Bixby e investimento massivo em inteligência artificial e Internet das Coisas (IoT).</p>
+                            <span class="timeline-category">Inovação</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2019">
+                        <div class="timeline-year">2019</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Galaxy Fold</h3>
+                            <p>Samsung lança o Galaxy Fold, primeiro smartphone com tela dobrável comercialmente viável, pioneirando nova categoria de dispositivos.</p>
+                            <span class="timeline-category">Revolução</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2020">
+                        <div class="timeline-year">2020</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>5G e Além</h3>
+                            <p>Samsung lidera o desenvolvimento de tecnologia 5G, investindo em redes, chipsets e dispositivos para a próxima geração de conectividade.</p>
+                            <span class="timeline-category">Tecnologia</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event" data-year="2024">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-marker-dot"></div>
+                        <div class="timeline-details">
+                            <h3>Líder Global</h3>
+                            <p>Samsung continua como uma das empresas de tecnologia mais valiosas e inovadoras, com mais de 270.000 funcionários globalmente.</p>
+                            <span class="timeline-category">Presente</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Estatísticas -->
+        <section class="stats-section">
+            <div class="container">
+                <h3 class="section-title">Samsung em Números</h3>
+                <div class="stats-background">
+                    <img src="../images/Samsung Global.jpg" alt="Samsung Global" class="stats-bg-image" query="global business world map technology network connections">
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <img src="../images/86 anos.jpg" alt="História" class="stat-icon-image" query="calendar history timeline clock vintage">
+                        <div class="stat-number">86</div>
+                        <div class="stat-label">Anos de História</div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="../images/122k funcionarios no mundo.jpg" alt="Funcionários" class="stat-icon-image" query="business people team employees diverse workforce">
+                        <div class="stat-number">270K+</div>
+                        <div class="stat-label">Funcionários Globais</div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="../images/samsung bilhoes.jpg" alt="Receita" class="stat-icon-image" query="money financial growth chart success">
+                        <div class="stat-number">$200B+</div>
+                        <div class="stat-label">Receita Anual</div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="../images/samsung atua no mundo todo.jpg" alt="Países" class="stat-icon-image" query="globe world countries international flags">
+                        <div class="stat-number">80+</div>
+                        <div class="stat-label">Países com Operações</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Samsung History</h4>
+                    <p>Um projeto acadêmico sobre a história da Samsung Electronics.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="fundacao.html">Fundação</a></li>
+                        <li><a href="lancamento.html">Primeiro Lançamento</a></li>
+                        <li><a href="linha_do_tempo.html">Linha do Tempo</a></li>
+                        <li><a href="curiosidades.html">Curiosidades</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informações</h4>
+                    <ul class="footer-links">
+                        <li><a href="../readme.md">README</a></li>
+                        <li><a href="#" onclick="openCreditsModal(event)">Créditos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> Projeto destinado a disciplina de Introdução a Tecnologia Web do 1º Periodo de Sistemas da Unirios</p> <br>
+                <p>&copy; 2025 Victor Sobreira</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="creditsModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCreditsModal()">&times;</button>
+            <h2>Créditos e Fontes</h2>
+            <p><strong>Imagens:</strong> Todas as imagens são geradas como placeholders para fins educacionais.</p>
+            <p><strong>Conteúdo:</strong> Informações baseadas em fontes públicas sobre a história da Samsung.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* ========================================
+   PÁGINA DE LANÇAMENTO
+   ======================================== */
+
+/* HERO */
+.launch-hero {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--samsung-blue), var(--samsung-blue-2), var(--samsung-blue-3));
+}
+
+.launch-hero-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+/* INTRO */
+.launch-intro {
+  padding: 5rem 0;
+  background: var(--gray-100);
+}
+
+.intro-grid {
+  display: grid;
+  gap: 4rem;
+}
+
+/* TIMELINE DESENVOLVIMENTO */
+.development-timeline {
+  padding: 5rem 0;
+}
+
+.dev-item {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* SPECIFICAÇÕES */
+.product-specs {
+  padding: 5rem 0;
+  background: var(--gray-100);
+}
+
+.specs-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+/* IMPACTO */
+.impact-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+/* CITAÇÃO */
+.quote-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--samsung-blue), var(--samsung-blue-2));
+  color: white;
+}
+
+/* EVOLUÇÃO */
+.evolution-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+/* CTA FINAL */
+.cta-section {
+  padding: 5rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, var(--samsung-blue-2), var(--samsung-blue-3));
+  color: white;
+}

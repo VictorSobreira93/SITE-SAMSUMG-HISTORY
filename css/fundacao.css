@@ -1,0 +1,114 @@
+/* ========================================
+   FUNDAÇÃO - FUNDADOR
+   ======================================== */
+.founder-section {
+  margin-bottom: 5rem;
+  background-color: var(--gray-100);
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.founder-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.founder-image img {
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.founder-label {
+  background-color: var(--samsung-blue);
+  color: var(--white);
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+/* ========================================
+   FUNDAÇÃO - TIMELINE SIMPLES
+   ======================================== */
+.foundation-timeline {
+  margin-bottom: 5rem;
+}
+
+.simple-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.simple-timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 3px;
+  top: 0;
+  bottom: 0;
+  background-color: var(--samsung-light);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -3rem;
+  top: 0;
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--samsung-blue);
+  border: 4px solid var(--white);
+  box-shadow: 0 0 0 3px var(--samsung-light);
+}
+
+.timeline-content p {
+  line-height: 1.6;
+}
+
+/* ========================================
+   CONTEXTO HISTÓRICO
+   ======================================== */
+.historical-context {
+  margin-bottom: 5rem;
+}
+
+.context-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.context-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  border-top: 4px solid var(--samsung-blue);
+}
+
+/* ========================================
+   SIGNIFICADO DO NOME
+   ======================================== */
+.name-meaning {
+  background: linear-gradient(135deg, var(--samsung-blue), var(--samsung-blue-2));
+  color: var(--white);
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.name-explanation {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}

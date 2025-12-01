@@ -1,0 +1,88 @@
+/* ========================================
+   HISTÓRIA - BLOCOS DE CONTEÚDO
+   ======================================== */
+.history-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.history-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.history-block.reverse {
+  direction: rtl;
+}
+
+.history-block.reverse > * {
+  direction: ltr;
+}
+
+.history-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--samsung-blue);
+  margin-bottom: 1.5rem;
+}
+
+.history-text p {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  color: var(--gray-700);
+}
+
+.history-image img {
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Cards de curiosidades na página história */
+.curiosity-preview {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  background-color: var(--gray-100);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+}
+
+.curiosity-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.curiosity-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.curiosity-card:hover {
+  transform: translateY(-5px);
+}
+
+.curiosity-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.curiosity-card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: 0.75rem;
+}
+
+.curiosity-card p {
+  color: var(--gray-700);
+  line-height: 1.5;
+}
